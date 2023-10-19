@@ -326,10 +326,10 @@
   border-radius: 50%;
   -webkit-clip-path: circle();
           clip-path: circle();
-  width: auto;
+  width: 120px;
   height: 120px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: absolute;
   top: -60px;
   right: 50%;

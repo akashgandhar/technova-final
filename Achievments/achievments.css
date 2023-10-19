@@ -1,0 +1,194 @@
+.home-page {
+  padding: 2% 8%;
+  background-image: linear-gradient(#ffffff, rgba(236, 252, 255, 0.5529411765));
+  color: #53597b;
+  font-family: "Mulish", sans-serif;
+  border: 0;
+}
+.home-page .title-content {
+  margin: 80px 0;
+}
+.home-page .title-content h1 {
+  font-weight: 600;
+  color: #00add8;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.home-page .title-content h2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  display: inline;
+}
+.home-page .title-content p {
+  width: 80%;
+  margin: 20px 0;
+  font-size: 1rem;
+  padding: 0 5px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.home-page .title-content .explore {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  background: #2196f3;
+  box-shadow: 0px 10px 20px -10px #1376c5;
+  color: white;
+  border-radius: 20px;
+  margin: auto 0;
+  border: 0;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  margin: 30px 10px 0;
+  transition: all 0.3s ease-in;
+}
+.home-page .title-content .title-heading {
+  position: relative;
+}
+.home-page .title-content img {
+  width: 65px;
+  position: absolute;
+  margin-left: 10px;
+}
+.home-page img {
+  width: 600px;
+}
+
+@media only screen and (max-width: 900px) {
+  .home-page {
+    text-align: center;
+  }
+  .home-page .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .home-page .first {
+    order: 2;
+  }
+  .home-page .second {
+    order: 1;
+  }
+  .home-page .title-content {
+    margin: 50px 0;
+  }
+  .home-page .title-content h1 {
+    font-size: 1.5rem;
+  }
+  .home-page .title-content h2 {
+    font-size: 2.5rem;
+  }
+  .home-page .title-content img {
+    top: 100%;
+    right: 50%;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+  .home-page .title-content p {
+    width: 100%;
+    margin-top: 90px;
+  }
+}
+.achievments-slider {
+  padding: 5% 8%;
+  text-align: center;
+}
+.achievments-slider .heading {
+  margin-bottom: 50px;
+}
+.achievments-slider .heading h2 {
+  color: #00add8;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.achievments-slider .heading h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.achievments-slider .achievment-slider {
+  text-align: left;
+}
+.achievments-slider .carousel-indicators button {
+  width: 50px;
+}
+.achievments-slider .carousel-item:nth-child(1) span:nth-child(1) {
+  color: #1380d0;
+  margin: 0;
+}
+.achievments-slider .carousel-item:nth-child(1) span:nth-child(2) {
+  margin: 0;
+  color: #63b867;
+}
+.achievments-slider .carousel-item:nth-child(3) span:nth-child(1) {
+  color: #000000;
+}
+.achievments-slider .carousel-item:nth-child(3) span:nth-child(2) {
+  color: #ff9900;
+}
+.achievments-slider .slider-content {
+  margin-bottom: 100px;
+}
+.achievments-slider .slider-content .content {
+  margin-top: 80px;
+}
+.achievments-slider .slider-content .content span {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.achievments-slider .slider-content .content .color:first-child {
+  color: #428ff4;
+}
+.achievments-slider .slider-content .content .color:nth-child(2) {
+  color: #ea4335;
+}
+.achievments-slider .slider-content .content .color:nth-child(3) {
+  color: #fbbc05;
+}
+.achievments-slider .slider-content .content .color:nth-child(4) {
+  color: #428ff4;
+}
+.achievments-slider .slider-content .content .color:nth-child(5) {
+  color: #34a853;
+}
+.achievments-slider .slider-content .content .color:nth-child(6) {
+  color: #ea4335;
+}
+.achievments-slider .slider-content .content .color-grey {
+  color: #666666;
+  margin-left: 5px;
+}
+.achievments-slider .slider-content .content p {
+  margin: 20px 0 50px;
+  width: 80%;
+}
+.achievments-slider .slider-content .content h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.achievments-slider .slider-content .image img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 900px) {
+  .achievments-slider .achievment-slider {
+    text-align: center;
+  }
+  .achievments-slider .achievment-slider .slider-content {
+    margin-bottom: 50px;
+  }
+  .achievments-slider .achievment-slider .slider-content .image img {
+    height: auto;
+    margin-top: 20px;
+  }
+  .achievments-slider .achievment-slider .slider-content .content {
+    margin-top: 0;
+  }
+  .achievments-slider .achievment-slider .slider-content .content p {
+    width: 100%;
+  }
+}/*# sourceMappingURL=achievments.css.map */

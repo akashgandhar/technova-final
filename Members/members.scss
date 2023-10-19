@@ -1,0 +1,192 @@
+$text: #53597b;
+$heading: #00add8;
+$cyan: #01d1db;
+$borderColor: #f5f5f5;
+$darkBlue: #0273ff;
+@mixin heading-style() {
+  .heading {
+    h1 {
+      color: $heading;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    margin-bottom: 50px;
+  }
+}
+
+.join {
+  padding: 3% 6%;
+  background-image: linear-gradient(#ffffff, #ecfcff);
+  @include heading-style();
+  text-align: center;
+
+  .slider-content {
+    margin-bottom: 80px;
+  }
+
+  .image {
+    img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      border: 5px solid #000000;
+      margin-top: 25px;
+    }
+  }
+  .carousel-indicators {
+    button {
+      width: 50px;
+    }
+  }
+  .message {
+    padding: 40px 40px 20px;
+    text-align: left;
+    // border: 2px solid black;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position-x: 40px;
+
+    p {
+      margin-bottom: auto;
+      line-height: 1.7;
+    }
+    h4 {
+      margin-top: 15px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.team {
+  padding: 3% 4% 6%;
+  text-align: center;
+  @include heading-style();
+
+  .members-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 100px 60px;
+    .member {
+      background-color: $borderColor;
+      box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.2s ease-out;
+      border-top: none;
+      border-radius: 5px;
+      position: relative;
+      padding: 30px 30px 20px;
+      max-width: 300px;
+      .designation {
+        margin-top: 50px;
+        h4 {
+          font-size: 1.2rem;
+          transition: color 0.3s ease-out;
+        }
+        h6 {
+          color: grey;
+        }
+        i {
+          margin: 15px 5px 0;
+          font-size: 1.2rem;
+        }
+      }
+      img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        position: absolute;
+        top: -60px;
+        right: 50%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      &:hover {
+        box-shadow: 0 6px 26px 6px rgba(0, 0, 0, 0.25);
+        h4 {
+          color: $heading;
+          transition: color 0.3s ease-in;
+        }
+
+        transition: box-shadow 0.2s ease-in;
+      }
+    }
+  }
+
+  .popup-join {
+    background-color: $heading;
+    color: #ffff;
+    width: 80%;
+    padding: 40px;
+    margin: 80px auto 0;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position-y: 100px;
+    h4 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    a {
+      background-color: #fff;
+      border-radius: 10px;
+      color: $heading;
+      font-weight: 600;
+      padding: 10px 25px;
+      transition: all 0.3s ease-in;
+    }
+    a:hover {
+      background-color: $borderColor;
+      transition: all 0.3s ease-in;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .join {
+    padding: 0;
+    .image {
+      img {
+        margin-top: 0;
+      }
+    }
+    .message {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  .team {
+    .members-grid {
+      .member {
+        width: 100%;
+        margin: auto;
+      }
+      grid-template-columns: auto auto;
+    }
+    .popup-join {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .team {
+    .members-grid {
+      .member {
+        width: 100%;
+        margin: auto;
+      }
+      margin-top: 80px;
+      grid-template-columns: auto;
+    }
+  }
+}

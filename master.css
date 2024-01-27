@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Nunito+Sans:wght@300;600;800&family=Roboto+Mono:wght@400;600;700&display=swap");
+
 body {
   color: #53597b;
   overflow-x: hidden;
@@ -22,6 +23,7 @@ button:active {
   from {
     left: 200px;
   }
+
   to {
     left: 0;
   }
@@ -35,6 +37,7 @@ header {
   padding: 2% 8%;
   font-family: "Mulish", sans-serif;
 }
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -42,24 +45,29 @@ header nav {
   flex-direction: row;
   height: 80px;
 }
+
 header nav img {
   width: 90px;
 }
+
 header nav ul {
   list-style: none;
   margin: auto 0;
 }
+
 header nav ul li {
   display: inline;
   margin: 0;
   font-size: 1rem;
   font-weight: 600;
 }
+
 header nav ul li a {
   border-radius: 20px;
   padding: 15px 30px;
   transition: all 0.2s ease-out;
 }
+
 header nav .btn-register {
   padding: 10px 30px;
   font-size: 1rem;
@@ -74,11 +82,13 @@ header nav .btn-register {
   box-shadow: 0px 10px 20px -10px #1376c5;
   transition: all 0.3s ease-in;
 }
+
 header nav .btn-register:hover {
   color: white;
   background-color: #3498db;
   transition: all 0.3s ease-in;
 }
+
 header nav .nav-responsive {
   display: none;
   background-color: #000000;
@@ -110,20 +120,25 @@ nav ul li a:hover {
   header {
     padding: 5%;
   }
+
   header nav {
     justify-content: space-between;
     position: relative;
   }
+
   header nav .btn-register {
     display: none;
   }
+
   header nav .nav-items {
     margin: 0 20px;
   }
+
   header nav .nav-buttons {
     margin: 0 20px;
     min-width: 0;
   }
+
   header nav .btn-responsive {
     padding: 10px 30px;
     font-size: 1rem;
@@ -140,6 +155,7 @@ nav ul li a:hover {
   header nav ul {
     display: none;
   }
+
   header nav ul li {
     margin: 20px 0;
     color: white;
@@ -166,7 +182,7 @@ nav ul li a:hover {
     animation: navbar 0.4s;
   }
 
-  header .responsive + .close-div {
+  header .responsive+.close-div {
     display: block;
     cursor: pointer;
   }
@@ -191,7 +207,7 @@ nav ul li a:hover {
     cursor: pointer;
   }
 
-  header nav .responsive + .collapse-div {
+  header nav .responsive+.collapse-div {
     cursor: pointer;
     display: none;
   }
@@ -204,6 +220,7 @@ nav ul li a:hover {
 #news-slider {
   margin-top: 80px;
 }
+
 .post-slide {
   background: #fff;
   margin: 20px 15px 20px;
@@ -211,6 +228,7 @@ nav ul li a:hover {
   padding-top: 1px;
   box-shadow: 0px 14px 22px -9px #bbcbd8;
 }
+
 .post-slide .post-img {
   position: relative;
   overflow: hidden;
@@ -218,6 +236,7 @@ nav ul li a:hover {
   margin: -12px 0px 8px 0px;
   /* margin-left: -10px; */
 }
+
 .post-slide .post-img img {
   width: 100%;
   height: 300px;
@@ -225,9 +244,11 @@ nav ul li a:hover {
   transform: scale(1, 1);
   transition: transform 0.2s linear;
 }
+
 .post-slide:hover .post-img img {
   transform: scale(1.1, 1.1);
 }
+
 .post-slide .over-layer {
   width: 100%;
   height: 100%;
@@ -242,10 +263,12 @@ nav ul li a:hover {
   border: 1px solid rgba(255, 255, 255, 0.03);
   transition: all 0.5s linear;
 }
+
 .post-slide:hover .over-layer {
   opacity: 1;
   text-decoration: none;
 }
+
 .post-slide .over-layer i {
   position: relative;
   top: 45%;
@@ -254,11 +277,13 @@ nav ul li a:hover {
   color: #000000;
   font-size: 25px;
 }
+
 .post-slide .post-content {
   background: #fff;
   padding: 2px 20px 50px;
   border-radius: 15px;
 }
+
 .post-slide .post-title a {
   font-size: 15px;
   font-weight: bold;
@@ -267,27 +292,31 @@ nav ul li a:hover {
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
+
 .post-slide .post-title a:hover {
   text-decoration: none;
   color: #3498db;
 }
+
 .post-slide .post-description {
   line-height: 24px;
   color: #808080;
   margin-bottom: 25px;
 }
+
 .post-slide .post-date {
   color: #a9a9a9;
   font-size: 14px;
 }
+
 .post-slide .post-date i {
   font-size: 20px;
   margin-right: 8px;
   color: #cfdace;
 }
+
 .post-slide .read-more {
-  padding: 7px 20px;
-  float: right;
+  padding: 10px 20px;
   font-size: 12px;
   background: #2196f3;
   color: #ffffff;
@@ -296,16 +325,19 @@ nav ul li a:hover {
   text-transform: uppercase;
   transition: all 0.3s ease-in;
 }
+
 .post-slide .read-more:hover {
   background: #3498db;
   text-decoration: none;
   color: #fff;
   transition: all 0.3s ease-in;
 }
+
 .owl-controls .owl-buttons {
   text-align: center;
   margin-top: 20px;
 }
+
 .owl-controls .owl-buttons .owl-prev {
   background: #fff;
   position: absolute;
@@ -316,6 +348,7 @@ nav ul li a:hover {
   box-shadow: 3px 14px 25px -10px #92b4d0;
   transition: background 0.5s ease 0s;
 }
+
 .owl-controls .owl-buttons .owl-next {
   background: #fff;
   position: absolute;
@@ -326,6 +359,7 @@ nav ul li a:hover {
   box-shadow: -3px 14px 25px -10px #92b4d0;
   transition: background 0.5s ease 0s;
 }
+
 .owl-controls .owl-buttons .owl-prev:after,
 .owl-controls .owl-buttons .owl-next:after {
   content: "\f104";
@@ -333,9 +367,11 @@ nav ul li a:hover {
   color: #333;
   font-size: 30px;
 }
+
 .owl-controls .owl-buttons .owl-next:after {
   content: "\f105";
 }
+
 @media only screen and (max-width: 1280px) {
   .post-slide .post-content {
     padding: 0px 15px 50px 15px;
@@ -351,16 +387,20 @@ footer {
   background-color: hsl(233deg, 26%, 24%);
   color: white;
 }
+
 footer a {
   color: white;
   transition: all 0.3s ease-in;
 }
+
 footer .box1 {
   width: 40%;
 }
+
 footer .box1 img {
   width: 90px;
 }
+
 .naac-logo {
   width: 80px !important;
 }
@@ -379,6 +419,7 @@ footer .box1 img {
   width: 100% !important;
   margin-top: 5px;
 }
+
 footer .box1 .content {
   margin-top: 40px;
 }
@@ -393,10 +434,12 @@ footer .box1 .content ul {
   padding: 0 20px;
   position: relative;
 }
+
 footer .box1 .content ul li {
   color: white;
   list-style: none;
 }
+
 footer .box1 .content ul li:before {
   content: url("Home/images/icon-location.svg");
   position: absolute;
@@ -405,11 +448,13 @@ footer .box1 .content ul li:before {
   top: 50%;
   transform: translateY(-80%);
 }
+
 footer .box1 .content ul li span {
   position: relative;
   left: 10px;
   bottom: 10px;
 }
+
 footer .icon {
   display: inline-block;
   padding: 5px;
@@ -417,13 +462,16 @@ footer .icon {
   width: 35px;
   margin: 0 5px;
 }
+
 footer .box3 {
   margin: 80px 0 0;
   text-align: center;
 }
+
 footer .box3 h4 {
   font-size: 1.2rem;
 }
+
 footer .box3 .links {
   margin-top: 15px;
   display: grid;
@@ -431,6 +479,7 @@ footer .box3 .links {
   grid-template-columns: auto auto;
   grid-gap: 20px 30px;
 }
+
 footer .box3 .links a {
   color: white;
   transition: all 0.3s ease-in;
@@ -440,20 +489,26 @@ footer .box3 .links a:hover {
   color: #3498db;
   transition: all 0.3s ease-in;
 }
+
 footer .box4 {
   margin-top: 80px;
   text-align: center;
 }
+
 footer .box4 h4 {
   font-size: 1.2rem;
   margin-bottom: 15px;
 }
+
 footer .box4 .icon {
   cursor: pointer;
 }
+
 footer .box4 .icon i {
   font-size: 1.5rem;
-} /*# sourceMappingURL=home.css.map */
+}
+
+/*# sourceMappingURL=home.css.map */
 
 @media only screen and (max-width: 900px) {
   footer {
@@ -461,10 +516,12 @@ footer .box4 .icon i {
     padding: auto;
     flex-direction: column;
   }
+
   footer .box1 {
     margin-top: 50px;
     width: 100%;
   }
+
   footer .bg-img img {
     width: 100% !important;
     /* margin-top: 15px; */
@@ -475,6 +532,7 @@ footer .box4 .icon i {
     margin-left: 0;
     margin: 15px auto 0;
   }
+
   footer .box3 {
     margin: 20px 0;
     grid-template-columns: auto;
@@ -487,9 +545,11 @@ footer .box4 .icon i {
     grid-template-columns: auto;
     text-align: center;
   }
+
   .box3 .links2 {
     grid-gap: 15px;
   }
+
   footer .box4 {
     margin: 10px 0;
     text-align: center;

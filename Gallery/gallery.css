@@ -95,83 +95,83 @@
     transform: translateX(0%);
   }
 }
-.achievments-slider {
+.achievements-slider {
   padding: 3% 8%;
   background-color: rgba(238, 238, 238, 0.1568627451);
   text-align: center;
 }
-.achievments-slider .heading {
+.achievements-slider .heading {
   margin-bottom: 50px;
 }
-.achievments-slider .heading h2 {
+.achievements-slider .heading h2 {
   color: #00add8;
   font-size: 1.2rem;
   font-weight: 600;
 }
-.achievments-slider .heading h3 {
+.achievements-slider .heading h3 {
   font-size: 2rem;
   font-weight: 600;
 }
-.achievments-slider .achievment-slider {
+.achievements-slider .achievment-slider {
   text-align: left;
 }
-.achievments-slider .carousel-indicators button {
+.achievements-slider .carousel-indicators button {
   width: 50px;
 }
-.achievments-slider .carousel-item:nth-child(1) span:nth-child(1) {
+.achievements-slider .carousel-item:nth-child(1) span:nth-child(1) {
   margin: 0;
 }
-.achievments-slider .carousel-item:nth-child(1) .image img {
+.achievements-slider .carousel-item:nth-child(1) .image img {
   width: 100%;
 }
-.achievments-slider .carousel-item:nth-child(1) span:nth-child(2) {
+.achievements-slider .carousel-item:nth-child(1) span:nth-child(2) {
   margin: 0;
   color: #63b867;
 }
-.achievments-slider .carousel-item:nth-child(3) span:nth-child(2) {
+.achievements-slider .carousel-item:nth-child(3) span:nth-child(2) {
   color: #ff9900;
 }
-.achievments-slider .slider-content {
+.achievements-slider .slider-content {
   margin-bottom: 70px;
 }
-.achievments-slider .slider-content .content {
+.achievements-slider .slider-content .content {
   margin-top: 100px;
 }
-.achievments-slider .slider-content .content span {
+.achievements-slider .slider-content .content span {
   font-weight: 700;
   font-size: 2rem;
 }
-.achievments-slider .slider-content .content .color:first-child {
+.achievements-slider .slider-content .content .color:first-child {
   color: #428ff4;
 }
-.achievments-slider .slider-content .content .color:nth-child(2) {
+.achievements-slider .slider-content .content .color:nth-child(2) {
   color: #ea4335;
 }
-.achievments-slider .slider-content .content .color:nth-child(3) {
+.achievements-slider .slider-content .content .color:nth-child(3) {
   color: #fbbc05;
 }
-.achievments-slider .slider-content .content .color:nth-child(4) {
+.achievements-slider .slider-content .content .color:nth-child(4) {
   color: #428ff4;
 }
-.achievments-slider .slider-content .content .color:nth-child(5) {
+.achievements-slider .slider-content .content .color:nth-child(5) {
   color: #34a853;
 }
-.achievments-slider .slider-content .content .color:nth-child(6) {
+.achievements-slider .slider-content .content .color:nth-child(6) {
   color: #ea4335;
 }
-.achievments-slider .slider-content .content .color-grey {
+.achievements-slider .slider-content .content .color-grey {
   color: #666666;
   margin-left: 5px;
 }
-.achievments-slider .slider-content .content p {
+.achievements-slider .slider-content .content p {
   margin: 20px 0 50px;
   width: 80%;
 }
-.achievments-slider .slider-content .content h4 {
+.achievements-slider .slider-content .content h4 {
   font-size: 1.2rem;
   font-weight: 600;
 }
-.achievments-slider .slider-content .image img {
+.achievements-slider .slider-content .image img {
   width: 100%;
   height: 500px;
   -o-object-fit: contain;
@@ -179,20 +179,20 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .achievments-slider .achievment-slider {
+  .achievements-slider .achievment-slider {
     text-align: center;
   }
-  .achievments-slider .achievment-slider .slider-content {
+  .achievements-slider .achievment-slider .slider-content {
     margin-bottom: 50px;
   }
-  .achievments-slider .achievment-slider .slider-content .image img {
+  .achievements-slider .achievment-slider .slider-content .image img {
     height: auto;
     margin-top: 20px;
   }
-  .achievments-slider .achievment-slider .slider-content .content {
+  .achievements-slider .achievment-slider .slider-content .content {
     margin-top: 0;
   }
-  .achievments-slider .achievment-slider .slider-content .content p {
+  .achievements-slider .achievment-slider .slider-content .content p {
     width: 100%;
   }
 }

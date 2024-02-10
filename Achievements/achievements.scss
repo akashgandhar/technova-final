@@ -147,7 +147,7 @@ $darkBlue: #0273ff;
   }
 }
 
-.achievments-slider {
+.achievements-slider {
   padding: 5% 8%;
   @include heading-style();
   text-align: center;
@@ -233,7 +233,7 @@ $darkBlue: #0273ff;
 }
 
 @media only screen and (max-width: 900px) {
-  .achievments-slider {
+  .achievements-slider {
     .achievment-slider {
       text-align: center;
       .slider-content {
